@@ -1,0 +1,38 @@
+body {
+  background-color: rgba(63,103,234,0.95);
+  margin: 8% auto 20% auto; 
+  font-size: 1.2rem; font-family: Verdana, Arial, sans-serif;
+}
+
+
+#display {
+  border: 4px solid rgba(20,20,20,0.8); border-radius: 5px; 
+  background-color: rgba(200,200,200,.6);
+  min-height: 30px; max-width: 30%; 
+  margin: 25px auto 0 auto; text-align: center; padding: 5px;
+  box-shadow: 1px 2px 3px 3px rgba(40,40,40,.6);
+}
+
+
+#drum-machine {
+  border: 4px solid rgba(20,20,20,0.8); max-width: 60%; 
+  padding: 10px 10px; background-color: rgb(65,68,119);
+  margin: 0 auto 0 auto; border-radius: 12px;
+  color: black;
+  box-shadow: 1px 2px 3px 3px rgba(40,40,40,.6);
+}
+
+.row1, .row2, .row3 {display: flex;}
+.row1 div {flex: 1; background-color: rgba(240,193,184,0.6);}
+.row2 div {flex: 1; background-color: rgba(180,239,224,0.6);}
+.row3 div {flex: 1; background-color: rgba(189,175,234,0.6);}
+
+.drum-pad {
+  cursor: pointer; border: 4px solid rgba(20,20,20,0.8); 
+  border-radius: 5px; min-height: 70px;
+   margin: 2px 2px; text-align: center; padding: 3%;}
+
+.drum-pad:hover {background-color: rgba(235,233,224,0.3);}
+.drum-pad:active {background-color: rgba(255,250,249,0.7);}
+
+
